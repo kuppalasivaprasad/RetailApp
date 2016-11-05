@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_layouts_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.onmymobile.retailapp.LayoutsListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/intro_wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro Wifi" />
+
+            <Button
+                android:id="@+id/intro_offers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro Offers" />
+
+            <Button
+                android:id="@+id/intro_traffic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro Traffic" />
+
+            <Button
+                android:id="@+id/intro_refer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro refer" />
+
+            <Button
+                android:id="@+id/intro_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro news" />
+
+            <Button
+                android:id="@+id/social"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social" />
+
+            <Button
+                android:id="@+id/traffic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="traffic" />
+
+            <Button
+                android:id="@+id/invite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Invite" />
+
+            <Button
+                android:id="@+id/loyalty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loyalty" />
+
+            <Button
+                android:id="@+id/list_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub List" />
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile" />
+            <Button
+                android:id="@+id/order_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order History" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

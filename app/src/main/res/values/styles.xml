@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemBackground">#ffffff</item>
+        <item name="android:actionMenuTextColor">#000000</item>
+
+
+    </style>
+
+    <style name="CustomDigitsTheme" parent="android:Theme.Holo.Light">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorLink">@color/colorAccent</item>
+        <item name="dgts__accentColor">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorAccent">@color/colorPrimaryDark</item> <!-- Whatever color you want-->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--  <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+  -->
+        <!-- <item name="textColorPrimary">@color/ColorPrimaryText</item> -->
+
+    </style>
+    <!--<style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:actionBarItemBackground">@color/colorPrimary</item>
+
+    </style>-->
+    <style name="MySeekBarTheme" parent="Widget.AppCompat.SeekBar" >
+        <item name="colorAccent">#00000000</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:minHeight">6.5dp</item>
+        <item name="android:maxHeight">6.5dp</item>
+    </style>
+    <style name="ThemeToolbar" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <!-- navigation icon color -->
+        <item name="colorControlNormal">@color/white</item>
+        <!-- color of the menu overflow icon -->
+    </style>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RetailApp</string>
+    <string name="tearms_and_condations"><u>Tearms and Condations</u></string>
+    <string name="nav_drawer_open">Slider Menu Opened</string>
+    <string name="nav_drawer_close">Slider Menu closed</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>My Cart</item>
+        <item>Pre-book</item>
+        <item>Order History</item>
+        <item>News</item>
+        <item>Location loyalty</item>
+        <item>Referrals</item>
+        <item>My profile</item>
+        <item>Feedback</item>
+        <item>Customer survey</item>
+        <item>Customer support</item>
+
+    </string-array>
+
+</resources>

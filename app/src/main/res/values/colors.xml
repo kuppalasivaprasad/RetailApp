@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d3</color>
+    <color name="colorAccent">#fe5722</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="unselected">#909090</color>
+    <color name="bordercolor">#cccccc</color>
+    <color name="seekbar">#f7f7f7</color>
+</resources>

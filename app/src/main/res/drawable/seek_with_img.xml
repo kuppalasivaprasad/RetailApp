@@ -1,0 +1,28 @@
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ffffff"/>
+            <solid android:color="#d8d8d8" />
+            <corners android:radius="7dp" />
+            <size
+                android:width="70dp"
+                android:height="70dp"/>
+        </shape>
+    </item>
+
+
+    <item android:bottom="3px">
+
+        <shape  android:shape="oval">
+
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="7dp" />
+
+        </shape>
+
+    </item>
+    <item android:drawable="@mipmap/ic_launcher" android:gravity="center"
+        />
+</layer-list>
