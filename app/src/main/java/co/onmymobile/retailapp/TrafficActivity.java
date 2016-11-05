@@ -80,7 +80,10 @@ public class TrafficActivity extends AppCompatActivity implements FragmentDrawer
         String title = getString(R.string.app_name);
         switch (position) {
             case 0:
+                /*mIntent = new Intent(this, ProfileActivity.class);
+                startActivity(mIntent);*/
                 Toast.makeText(getApplicationContext(),"this id "+position+" posations",Toast.LENGTH_SHORT).show();
+                //finish();
                 break;
             case 1:
                 Toast.makeText(getApplicationContext(),"this id "+position+" posation",Toast.LENGTH_SHORT).show();
