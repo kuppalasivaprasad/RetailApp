@@ -81,7 +81,6 @@ public class TrafficActivity extends AppCompatActivity implements FragmentDrawer
         switch (position) {
             case 0:
                 Toast.makeText(getApplicationContext(),"this id "+position+" posations",Toast.LENGTH_SHORT).show();
-                //finish();
                 break;
             case 1:
                 Toast.makeText(getApplicationContext(),"this id "+position+" posation",Toast.LENGTH_SHORT).show();
